@@ -1,0 +1,124 @@
+* {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #e9d9fb;
+}
+
+/* Home */
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #56267d;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.links_navbar {
+    text-decoration: none;
+    margin: 2rem;
+    color: #fff
+}
+
+.links_navbar:hover {
+    transition: 3s ease;
+    text-decoration:overline;
+}
+
+.button_pa {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4em;
+    background-color: #e74765;
+    padding: 0.2rem 2rem 0.2rem 1rem;
+    border-radius: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.button_pa:hover {
+    transition: 1s ease;
+    background-color: #d42a53;
+}
+
+.button_pa svg {
+    width: 1em;
+    height: 1em;
+    padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+}
+
+.home_right {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content_right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    position: relative;
+    bottom: 0px;
+    padding: 2rem 15rem 1rem 3rem;
+}
+
+.content_right p {
+    font-family: "Poetsen One", sans-serif;
+    font-size: 2.5em;
+    color: #39105b;
+}
+
+.content_right .right_action {
+    font-size: 1em;
+    font-weight: 400;
+    padding: 1.181vw 1.181vw 1.181vw 0px;
+    font-family: "Oswald";
+}
+
+.home_right .promo {
+    font-size: 1em;
+    text-decoration: none;
+    background-color: #e74765;
+    color: #fff;
+    padding: 0.7rem;
+    border-radius: 4vw;
+}
+
+.home_right .promo:hover {
+    transition: 1s ease;
+    background-color: #d42a53;
+}
+
+.home_left {
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/copinho-acai\ banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 40%;
+}
+
+.content_home {
+    display: flex;
+    width: 100%;
+    height: 86vh;
+}
+
+/* Sobre */
