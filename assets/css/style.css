@@ -1,5 +1,4 @@
 * {
-    font-family: "Oswald", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -11,6 +10,10 @@ body {
 }
 
 /* Home */
+
+#home {
+    font-family: "Oswald", sans-serif;
+}
 
 header {
     display: flex;
@@ -26,7 +29,8 @@ header {
 
 .links_navbar {
     text-decoration: none;
-    margin: 2rem;
+    margin: 2.5vw;
+    font-size: 1.445vw;
     color: #fff
 }
 
@@ -38,9 +42,9 @@ header {
 .button_pa {
     text-decoration: none;
     color: #fff;
-    font-size: 1.4em;
+    font-size: 2vw;
     background-color: #e74765;
-    padding: 0.2rem 2rem 0.2rem 1rem;
+    padding: 0.1vw 2vw 0.1vw 1vw;
     border-radius: 4vw;
     display: flex;
     flex-wrap: wrap;
@@ -53,9 +57,9 @@ header {
 }
 
 .button_pa svg {
-    width: 1em;
-    height: 1em;
-    padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+    width: 2.445vw;
+    height: 2.445vw;
+    padding: 0.723vw 1.8vw 0.723vw 1.8vw;
 }
 
 .home_right {
@@ -75,29 +79,29 @@ header {
     align-items: flex-start;
     align-content: center;
     position: relative;
-    bottom: 0px;
-    padding: 2rem 15rem 1rem 3rem;
+    bottom: 0;
+    padding: 2.891vw 15.68vw 1.445vw 4.336vw;
 }
 
 .content_right p {
     font-family: "Poetsen One", sans-serif;
-    font-size: 2.5em;
+    font-size: 3.523vw;
     color: #39105b;
 }
 
 .content_right .right_action {
-    font-size: 1em;
+    font-size: 1.445vw;
     font-weight: 400;
     padding: 1.181vw 1.181vw 1.181vw 0px;
     font-family: "Oswald";
 }
 
 .home_right .promo {
-    font-size: 1em;
+    font-size: 1.445vw;
     text-decoration: none;
     background-color: #e74765;
     color: #fff;
-    padding: 0.7rem;
+    padding: 1vw;
     border-radius: 4vw;
 }
 
@@ -122,3 +126,73 @@ header {
 }
 
 /* Sobre */
+
+#sobre_nos {
+    font-family: "Poetsen One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+#sobre_nos h1 {
+
+    text-align: center;
+    color: #39105b;
+    font-size: 4vw;
+    margin: 4vw;
+}
+
+.content_sobre {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.sobre_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #39105b;
+    width: 21%;
+    margin: 1vw;
+    background-color: #e9d9fb;
+    height: 33vw;
+    padding: 0.5vw;
+    border-radius: 1.626vw;
+}
+
+.content_sobre svg {
+    color: #39105b;
+    width: 5vw;
+    height: 5vw;
+}
+
+.text_content_sobre {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_content_sobre h2 {
+    font-size: 1.7vw;
+    font-weight: bold;
+    margin: 3vw 0 1vw 0;
+}
+
+.bk_svg {
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #d8bbf7
+}
+
