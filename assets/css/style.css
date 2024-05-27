@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
 }
-
+ 
 body {
     width: 100vw;
-    height: 100vh;
+    height: 100vw;
     background-color: #e9d9fb;
+    overflow-x: hidden;
 }
 
 /* Home */
@@ -132,6 +133,7 @@ header {
     display: flex;
     flex-direction: column;
     background-color: #fff;
+    padding-bottom: 8.452vw;
 }
 
 #sobre_nos h1 {
@@ -196,3 +198,94 @@ header {
     background-color: #d8bbf7
 }
 
+/* Produtos */
+
+.img_prod {
+    width: 45.167vw;
+    height: 45.167vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_prod img {
+    filter: drop-shadow(0.452vw 0.452vw 0.903vw rgba(0, 0, 0, 0.5));
+}
+
+.img_250 {
+    width: 22.584vw;
+}
+
+.img_500 {
+    width: 45.167vw;
+}
+
+.img_500_barca {
+    width: 45.167vw;
+    transform: rotate(-45deg);
+}
+
+#prod {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.produto {
+    display: flex;
+}
+
+.titulo_prod {
+    font-size: 4vw;
+    margin: 4vw;
+    text-align: center;
+    width: 100%;
+    font-family: "Poetsen One", sans-serif;
+    color: #39105b;
+}
+
+.text_prod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 45.167vw;
+    padding: 3.451vw
+}
+
+.text_prod h2 {
+    font-family: "Poetsen One", sans-serif;
+    font-size: 2.8vw;
+    color: #39105b;
+}
+
+.text_prod p {
+    font-family: "Poetsen One", sans-serif;
+    font-size: 1.9vw;
+    margin: 0.451vw;
+    color: #39105b;
+}
+
+#content_prod1 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #1aa3ca;
+    border-radius: 0 49% 49% 0;
+}
+
+#content_prod2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #26a985;
+    border-radius: 49% 0 0 49%;
+    position: relative;
+    left: 3vw;
+}
+
+#content_prod3 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #ee5b92;
+    border-radius: 0 49% 49% 0;
+}
