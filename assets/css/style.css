@@ -201,8 +201,8 @@ header {
 /* Produtos */
 
 .img_prod {
-    width: 45.167vw;
-    height: 45.167vw;
+    width: 16.167vw;
+    height: 14.167vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,26 +213,35 @@ header {
 }
 
 .img_250 {
-    width: 22.584vw;
+    width: 2.584vw;
 }
 
 .img_500 {
-    width: 45.167vw;
+    width: 15.167vw;
 }
 
 .img_500_barca {
-    width: 45.167vw;
+    width: 2.167vw;
     transform: rotate(-45deg);
 }
 
 #prod {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: wrap;
+    place-content: center space-around;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: stretch;
 }
 
 .produto {
     display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 27.5vw;
+    margin: 0.271vw;
 }
 
 .titulo_prod {
@@ -250,42 +259,44 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 45.167vw;
+    width: 100%;
     padding: 3.451vw
 }
 
 .text_prod h2 {
     font-family: "Poetsen One", sans-serif;
-    font-size: 2.8vw;
+    font-size: 1.7vw;
+    margin: 0.451vw;
     color: #39105b;
+    text-align: center;
 }
 
 .text_prod p {
     font-family: "Poetsen One", sans-serif;
-    font-size: 1.9vw;
+    font-size: 0.465vw;
     margin: 0.451vw;
     color: #39105b;
+    text-align: center;
 }
 
 #content_prod1 {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     background-color: #1aa3ca;
-    border-radius: 0 49% 49% 0;
 }
 
 #content_prod2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     background-color: #26a985;
-    border-radius: 49% 0 0 49%;
-    position: relative;
-    left: 3vw;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 #content_prod3 {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     background-color: #ee5b92;
-    border-radius: 0 49% 49% 0;
 }
