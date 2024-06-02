@@ -180,6 +180,10 @@ header {
     align-items: center;
 }
 
+.text_content_sobre p {
+    font-size: 1.445vw;
+}
+
 .text_content_sobre h2 {
     font-size: 1.7vw;
     font-weight: bold;
@@ -201,11 +205,12 @@ header {
 /* Produtos */
 
 .img_prod {
-    width: 16.167vw;
-    height: 14.167vw;
+    width: 100%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .img_prod img {
@@ -213,15 +218,15 @@ header {
 }
 
 .img_250 {
-    width: 2.584vw;
+    width: 10vw;
 }
 
 .img_500 {
-    width: 15.167vw;
+    width: 27vw;
 }
 
 .img_500_barca {
-    width: 2.167vw;
+    width: 21vw;
     transform: rotate(-45deg);
 }
 
@@ -236,12 +241,10 @@ header {
 
 .produto {
     display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 27.5vw;
-    margin: 0.271vw;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    width: 30%;
+    height: 51vw;
 }
 
 .titulo_prod {
@@ -254,49 +257,37 @@ header {
 }
 
 .text_prod {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     width: 100%;
-    padding: 3.451vw
+    height: 50%;
 }
 
 .text_prod h2 {
     font-family: "Poetsen One", sans-serif;
-    font-size: 1.7vw;
+    font-size: 3.162vw;
+    font-weight: 700;
     margin: 0.451vw;
-    color: #39105b;
+    color: #ffffff;
     text-align: center;
 }
 
 .text_prod p {
     font-family: "Poetsen One", sans-serif;
-    font-size: 0.465vw;
-    margin: 0.451vw;
-    color: #39105b;
+    font-size: 1.445vw;
+    margin: 1vw;
+    color: #fff;
     text-align: center;
+    font-weight: 100;
+    line-height: 2.168vw;
 }
 
 #content_prod1 {
-    display: flex;
-    flex-direction: column-reverse;
     background-color: #1aa3ca;
 }
 
 #content_prod2 {
-    display: flex;
-    flex-direction: column-reverse;
     background-color: #26a985;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
 }
 
 #content_prod3 {
-    display: flex;
-    flex-direction: column-reverse;
     background-color: #ee5b92;
 }
