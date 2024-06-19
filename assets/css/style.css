@@ -417,3 +417,104 @@ header {
     color:#e74765;
     -webkit-text-stroke: 0.05vw #fff;
 }
+
+/*footer*/
+
+footer {
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    flex-direction: row;
+    background-color: #e9d9fb;
+}
+
+#content_footer {
+    width: 50%;
+    height: 300px;
+}
+
+.title_footer {
+    font-size: 2vw;
+}
+
+.title_footer h1 {
+    text-align: center;
+    color: #39105b;
+}
+
+.icons_footer_left {
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+}
+
+.icons_footer_left svg {
+    width: 2.258vw;
+    height: 2.258vw;
+    color: #39105b;
+    padding: 1vw;
+}
+
+.icons_footer_left svg:hover {
+    color: #fff;
+    background-color: #e64765;
+    border-radius: 1vw;
+}
+
+.buttons_footer_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons_footer_left a {
+    width: 60%;
+    padding: 1vw;
+    border: 0.09vw #39105b solid;
+    border-radius: 4vw;
+    padding: 2vw;
+    margin: 0.5vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;
+    color: #39105b;
+}
+
+.buttons_footer_left a:hover {
+    transition: 0.2 ease;
+    border: 0.09vw #39105b solid;
+    background-color: #e64765;
+    color: #fff;
+}
+
+.content_footer_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.qrcode {
+    display: flex;
+    flex-direction: row;
+}
+
+.qrcode figure {
+    margin: 1vw;
+}
+
+.qrcode figure figcaption {
+    text-align: center;
+    color: #39105b;
+}
+
+.copy {
+    /* width: 100%; */
+    background-color: #39105b;
+}
+
+.copy p {
+    font-family: "Oswald", sans-serif;
+    font-size: 1vw;
+    color: #fff
+}
