@@ -183,6 +183,11 @@ header {
     align-items: center;
 }
 
+#text_content_sobre_corr {
+    position: relative;
+    top: 11px;
+}
+
 .text_content_sobre p {
     font-size: 1.445vw;
 }
@@ -347,11 +352,11 @@ header {
 
 /*franqueado*/
 
-.content_franq {
+#franq {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-image: url(../img/acai_banner.jpg);
+    align-items: flex-start;
+    background-image: url(../img/franq_acai_banner.jpg);
     width: 100%;
     height: 50vw;
     background-repeat: no-repeat;
@@ -361,21 +366,54 @@ header {
     flex-wrap: wrap;
 }
 
-.content_text_franq {
-    font-size: 3vw;
-    color: #fff;
-    font-family: "Oswald", sans-serif;
-    letter-spacing: 1vw;
+.content_franq {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2vw;
+    flex-direction: column;
+    margin: 11vw;
 }
 
-.content_buttom_fanq a {
-    width: 12vw;
-    padding: 2vw;
+.content_title_franq h1 {
+    font-size: 6vw;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+}
+
+.content_title_franq p {
+    width: 27.5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2vw 0vw;
     font-size: 2vw;
-    background-color: #fff;
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+}
+
+.link_buttom_franq {
+    width: 23vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
     text-decoration: none;
-    color: #39105b;
-    border-radius: 3vw;
-    border: 0.2vw #39105b solid;
-    font-family: "Poetsen One", sans-serif;
+    color: #fff;
+    padding: 2vw;
+    background-color: #39105b10;
+    border: 0.09vw #fff solid;
+    border-radius: 9vw;
+}
+
+.link_buttom_franq:hover {
+    transition: 0.3s ease;
+    background-color: #e74765;
+}
+
+#franq_text_hover_h1:hover {
+    transition: 0.2s ease;
+    color:#e74765;
+    -webkit-text-stroke: 0.05vw #fff;
 }
