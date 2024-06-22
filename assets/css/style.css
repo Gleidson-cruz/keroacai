@@ -353,6 +353,7 @@ header {
 /*franqueado*/
 
 #franq {
+    height: 33.1VW;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -364,6 +365,7 @@ header {
     background-position: center 40%;
     flex-direction: column;
     flex-wrap: wrap;
+    font-family: "Oswald", sans-serif;
 }
 
 .content_franq {
@@ -377,7 +379,6 @@ header {
 .content_title_franq h1 {
     font-size: 6vw;
     color: #fff;
-    font-family: "Oswald", sans-serif;
     margin: 0;
 }
 
@@ -389,7 +390,6 @@ header {
     margin: 2vw 0vw;
     font-size: 2vw;
     color: #ffffff;
-    font-family: "Oswald", sans-serif;
 }
 
 .link_buttom_franq {
@@ -509,7 +509,7 @@ footer {
 }
 
 .copy {
-    /* width: 100%; */
+    text-align: center;
     background-color: #39105b;
 }
 
