@@ -454,8 +454,8 @@ footer {
 }
 
 .icons_footer_left svg {
-    width: 2.258vw;
-    height: 2.258vw;
+    width: 4.336vw;
+    height: 4.336vw;
     color: #39105b;
     padding: 1vw;
 }
@@ -516,6 +516,7 @@ footer {
 .qrcode figure figcaption {
     text-align: center;
     color: #39105b;
+    font-size: 2vw;
 }
 
 .copy {

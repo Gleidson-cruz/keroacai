@@ -1,4 +1,26 @@
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 881px) and (max-width: 1500px) {
+    .navbar a {
+        margin: 1vw;
+        font-size: 1.9vw;
+    }
+    
+    .button_pa {
+        font-size: 3vw;
+        padding: 0.3vw 2vw 0.3vw 1vw
+    }
+    
+    .button_pa svg {
+        width: 3vw;
+        height: 3vw;
+        padding: 0.7vw 1vw 0.7vw 1vw;
+    }
+    
+    .content_home {
+        height: 50vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 880px) {
     /* Tablet */
     
 .navbar a {
@@ -72,6 +94,95 @@
 @media screen and (max-width: 767px) {
     /* Celulares */
 
+    header {
+        display: flex;
+        height: 10vw;
+        align-items: center;
+        justify-content: space-between;
+    }
 
+    .logo {
+        display: none;
+    }
 
+    .navbar {
+        width: 71%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar a {
+        margin: 3vw;
+        font-size: 1.9vw;
+    }
+    
+    .button_pa {
+        position: relative;
+        right: 2vw;
+        font-size: 3vw;
+        padding: 0.3vw 2vw 0.3vw 1vw;
+        position: relative;
+        right: 2vw;
+    }
+    
+    .button_pa svg {
+        width: 3vw;
+        height: 3vw;
+        padding: 0.7vw 1vw 0.7vw 1vw;
+    }
+    
+    .content_home {
+        height: 50vw;
+    }
+    
+    .content_sobre {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        grid-template-columns: repeat(2, 2fr)
+    }
+    
+    .sobre_content {
+        width: 95%;
+    }
+    .bk_svg {
+        width: 15vw;
+        height: 15vw;
+    }
+    
+    .text_content_sobre h2 {
+        font-size: 2.7vw;
+    }
+    
+    .text_content_sobre p {
+        font-size: 2vw;
+    }
+    
+    .content_prod {
+        display: grid;
+    }
+    
+    .produto {
+        width: 100%;
+        height: 55vw;
+    }
+    
+    .text_prod {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .text_prod h2 {
+        font-size: 4vw;
+    }
+    
+    .text_prod p {
+        width: 50%;
+        font-size: 1.9vw;
+    }
+
+    .footer {
+        height: 36vw;
+    }
 }
